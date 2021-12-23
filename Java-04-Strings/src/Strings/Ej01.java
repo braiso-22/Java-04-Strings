@@ -72,6 +72,21 @@ public class Ej01 {
             }
         }
         System.out.printf("Hay %d digitos\n", num);
+        //m
+        boolean palindromo = true;
+        for (int i = 1; i <= cadena.length() / 2; i++) {
+            if (cadena.charAt(i - 1) != cadena.charAt(cadena.length() - i)) {
+                palindromo = false;
+                break;
+            }
+        }
+        if (palindromo) {
+            System.out.println("Es un palindromo");
+        } else {
+            System.out.println("No es un palindromo");
+        }
+        
+        
     }
 
 }
