@@ -25,10 +25,14 @@ public class Ej01 {
         System.out.println("Introduce una palabra");
         cadena = teclado.nextLine();
         System.out.println(cadena.toLowerCase().concat(" ").concat(cadena.toUpperCase()));
-        
+
         //b
-        if(cadena.contains("x")){
+        if (cadena.contains("x")) {
             System.out.println("Tu cadena tiene x");
+        }
+        //c
+        if(cadena.length() > 10){
+            System.out.println("Tiene más de 10 caracteres");
         }
     }
 
