@@ -55,6 +55,11 @@ public class Ej01 {
         //i
         cadena2 = Integer.toHexString(numero);
         System.out.println(cadena2);
+        //j
+        if (cadena.contains("prueva")) {
+            cadena = cadena.replace("prueva", "prueba");
+        }
+        System.out.println(cadena);
     }
 
 }
