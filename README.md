@@ -170,7 +170,100 @@
   <li>
     Realiza un programa que solicite que se le introduzcan una cadena y un carácter y nos muestre cuantas veces está contenido el carácter en la cadena.
   </li>
+  <li>
+    Realiza un programa que muestre una contraseña generada aleatoriamente teniendo
+    las siguientes limitaciones: Tendrá entre 5 y 10 posiciones que solo pueden ser letras entre
+    la ‘a’ y la ‘j’.
+  </li>
+  <li>
+    Realiza un programa que muestre una contraseña generada aleatoriamente teniendo
+    las siguientes limitaciones: Tendrá entre 5 y 10 posiciones que solo pueden ser letras entre
+    la ‘a’ y la ‘j’ pero sin letras repetidas.
+  </li>
+  <li>
+    Realiza un programa al que se le introduzca un email y nos devuelva el nombre del
+    dominio y subdominios si los hubiese, es decir, lo que está entre la arroba y el punto final
+    (Ejemplo: info@empresas.clientes.mundo-r.com mostraría empresas.clientes.mundo-r ).
+  </li>
+  <li>
+    Un algoritmo de encriptado monoalfabético consiste en la sustitución de una letra
+    por otra a lo largo de todo el mensaje, por ejemplo las A por F, las B por X, las C por M.
+    Obviamente si la A pasa a ser F, ninguna otra letra pasará F. Hacer un programa que le
+    introduzca una cadena en mayúsculas y muestre la cadena encriptada en (todo lo que no
+    sean letras mayúsculas se deja intacto: números, espacios en blanco, etc.). Hacer una
+    segunda versión que funcione con mayúsculas y minúsculas.
+  </li>
+  <li>
+    Realizar un programa que solicite una cadena, un número que indica una posición de
+    la cadena y una letra. El programa reemplazará sobre la misma cadena, el carácter que
+    hubiera en la posición indicada por la letra introducida. Hacer dos versiones, la primera con
+    String y otra con StringBuilder.
+  </li>
+  <li>
+    Escribe un programa que solicite que se introduzca por teclado un nombre completo
+    y una edad y muestre el siguiente mensaje, utilizando la clase Format.
+    <h6>Hola, me llamo Pepe Pérez López y tengo 20 años</h6>
+    suponiendo que se introduce Pepe Pérez López como nombre completo y 20 como edad.
+  </li>
+  <li>
+    Realizar un programa que solicite la entrada de 10 cadenas de caracteres y
+    construya una cadena con el primer carácter de cada cadena. Finalmente mostrará dicha
+    cadena por pantalla.
+  </li>
+  <li>
+    Describe que realiza el código siguiente e indica si contiene algún error.
+  </li>
   
-  
-  
+  ```java
+  java.util.Scanner teclado = new java.util.Scanner(System.in);
+  System.out.println("Introduce una cadena:");
+  String cadena = teclado.nextLine();
+  StringBuilder cadenaSB = new StringBuilder(cadena);
+  int pos;
+  do {
+    pos = cadenaSB.indexOf(" ");
+    if (pos!=-1) cadenaSB.deleteCharAt(pos);
+  } while (pos != -1);
+  System.out.println(cadenaSB);
+  ```
+  <li>
+    Realizar un programa que solicite la entrada de una cadena de 6 posiciones, que
+    todas sean dígitos y sin repetidos. Si no cumple esas condiciones, el usuario deberá
+    introducirla de nuevo hasta que lo haga correctamente.
+  </li>
+  <li>
+    Realizar un programa al que se le introduzca un número decimal y lo convierta a un
+    String con su representación hexadecimal. Hay que hacerlo codificando el proceso sin usar
+    las clases de Java y luego compararlo con el resultado ofrecido por las clases de Java para
+    convertir de decimal a hexadecimal.
+  </li>
+  <li>
+    Realizar un programa al que se le introduzca una cadena por teclado, que la
+    convierta a StringBuilder, y aplicando métodos de esa clase, haga lo siguiente:
+  </li>
+  <ol type="a">
+      <li>
+        Borrar el carácter que haya en la posición 3.
+      </li>
+      <li>
+        Insertar una ‘x’ en la posición 5.
+      </li>
+      <li>
+        Sustituir el carácter de la posición 1 por una ‘z’.
+      </li>
+      <li>
+        Borrar los caracteres entre la posición 5 y 10.
+      </li>
+      <li>
+        Darles la vuelta a todos los caracteres del StringBuilder.
+      </li>
+      <li>
+        Convertir el StringBuilder en cadena.
+      </li>
+    </ol>
+  <li>
+    Realizar un programa en el que el usuario introduzca un texto y sustituya sus
+    posiciones impares por asteriscos, por ejemplo: “abcdefg” cambie las posiciones impares
+    pasaría a: “a*c*e*g”
+  </li>
 </ol>
