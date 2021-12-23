@@ -26,6 +26,10 @@ public class Ej01 {
         cadena = teclado.nextLine();
         System.out.println(cadena.toLowerCase().concat(" ").concat(cadena.toUpperCase()));
         
+        //b
+        if(cadena.contains("x")){
+            System.out.println("Tu cadena tiene x");
+        }
     }
 
 }
