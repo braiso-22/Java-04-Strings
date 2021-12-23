@@ -38,7 +38,9 @@ public class Ej01 {
         if (cadena.substring(4).contains("x")) {
             System.out.println("Tiene la x después de la 4ª letra");
         }
-        
+        //e
+        String cadena2 = cadena.substring(0, 5);
+        System.out.println(cadena2);
     }
 
 }
