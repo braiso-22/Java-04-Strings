@@ -34,6 +34,10 @@ public class Ej01 {
         if(cadena.length() > 10){
             System.out.println("Tiene más de 10 caracteres");
         }
+        //d
+        if(cadena.substring(4).contains("x")){
+            System.out.println("Tiene la x después de la 4ª letra");
+        }
     }
 
 }
