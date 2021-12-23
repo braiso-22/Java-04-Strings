@@ -49,7 +49,10 @@ public class Ej01 {
             System.out.println("Has escrito hola");
         }
         //h
-        int numero=Integer.parseInt(cadena);
+        int numero = Integer.parseInt(cadena);
+        System.out.println(numero);
+
+        
     }
 
 }
