@@ -41,6 +41,9 @@ public class Ej01 {
         //e
         String cadena2 = cadena.substring(0, 5);
         System.out.println(cadena2);
+        //f
+        cadena2 = cadena.substring(cadena.length() - 5, cadena.length());
+        System.out.println(cadena2);
     }
 
 }
