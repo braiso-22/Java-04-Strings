@@ -61,9 +61,17 @@ public class Ej01 {
         }
         System.out.println(cadena);
         //k
-         if(cadena.charAt(0) == cadena.charAt(cadena.length()-1)){
+        if (cadena.charAt(0) == cadena.charAt(cadena.length() - 1)) {
             System.out.println("El primer caracter y el último son el mismo");
         }
+        //l
+        int num = 0;
+        for (int i = 0; i < cadena.length(); i++) {
+            if (Character.isDigit(cadena.charAt(i))) {
+                num += 1;
+            }
+        }
+        System.out.printf("Hay %d digitos\n", num);
     }
 
 }
