@@ -48,7 +48,8 @@ public class Ej01 {
         if (cadena.equals("hola")) {
             System.out.println("Has escrito hola");
         }
-        
+        //h
+        int numero=Integer.parseInt(cadena);
     }
 
 }
