@@ -44,6 +44,11 @@ public class Ej01 {
         //f
         cadena2 = cadena.substring(cadena.length() - 5, cadena.length());
         System.out.println(cadena2);
+        //g
+        if (cadena.equals("hola")) {
+            System.out.println("Has escrito hola");
+        }
+        
     }
 
 }
