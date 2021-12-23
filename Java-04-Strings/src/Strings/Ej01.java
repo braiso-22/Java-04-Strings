@@ -60,6 +60,10 @@ public class Ej01 {
             cadena = cadena.replace("prueva", "prueba");
         }
         System.out.println(cadena);
+        //k
+         if(cadena.charAt(0) == cadena.charAt(cadena.length()-1)){
+            System.out.println("El primer caracter y el último son el mismo");
+        }
     }
 
 }
