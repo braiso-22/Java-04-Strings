@@ -85,8 +85,13 @@ public class Ej01 {
         } else {
             System.out.println("No es un palindromo");
         }
-        
-        
+        //n
+        char primeraPosicion = cadena.charAt(0);
+        char ultimaPosicion = cadena.charAt(cadena.length() - 1);
+        String nueva = ultimaPosicion + cadena.substring(1, cadena.length() - 1) + primeraPosicion;
+
+        System.out.println(nueva);
+
     }
 
 }
