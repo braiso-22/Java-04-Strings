@@ -52,7 +52,9 @@ public class Ej01 {
         int numero = Integer.parseInt(cadena);
         System.out.println(numero);
 
-        
+        //i
+        cadena2 = Integer.toHexString(numero);
+        System.out.println(cadena2);
     }
 
 }
