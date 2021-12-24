@@ -200,11 +200,14 @@
     String y otra con StringBuilder.
   </li>
   <li>
-    Escribe un programa que solicite que se introduzca por teclado un nombre completo
-    y una edad y muestre el siguiente mensaje, utilizando la clase Format.
-    <h6>Hola, me llamo Pepe Pérez López y tengo 20 años</h6>
-    suponiendo que se introduce Pepe Pérez López como nombre completo y 20 como edad.
+    <p>Escribe un programa que solicite que se introduzca por teclado un nombre completo
+    y una edad y muestre el siguiente mensaje, utilizando la clase Format.</p>
+    
+    
+    Hola, me llamo Pepe Pérez López y tengo 20 años
+   
   </li>
+  <p>suponiendo que se introduce Pepe Pérez López como nombre completo y 20 como edad.</p>
   <li>
     Realizar un programa que solicite la entrada de 10 cadenas de caracteres y
     construya una cadena con el primer carácter de cada cadena. Finalmente mostrará dicha
