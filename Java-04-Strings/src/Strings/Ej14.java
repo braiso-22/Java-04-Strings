@@ -20,6 +20,9 @@ public class Ej14 {
         Scanner a = new Scanner(System.in);
         String cadena;
         
+        //En este ejercicio cuando se refiere a posiciones
+        //uso las posiciones del texto y no las de StringBuilder que empiezan por 0
+        
         System.out.println("Introduce una cadena: ");
         cadena = a.nextLine();
         
